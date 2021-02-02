@@ -17,8 +17,10 @@ public class ListTotal
    // Create a for loop, and follow the ICU rule
    for (int i = 0; i < ray.size(); i++)
    {
+     // Add values together
      sum += ray.get(i);
    }
+   // Return the value sum.
    return sum;
  }
 }
